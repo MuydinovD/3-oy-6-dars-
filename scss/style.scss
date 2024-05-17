@@ -1,0 +1,31 @@
+@import url(./_header.scss);
+@import url(./_hero.scss);
+@import url(./_fonts.scss);
+@import url(./_normalize.scss);
+
+*{
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+.container{
+    max-width: 1142px;
+    width: 100%;
+    margin: 0 auto;
+}
+
+%buttonTemplate{
+    border: none;
+    background-color: #3ea83b;
+    padding: 15px 54px;
+    font-family: 'Poppins';
+    font-size: 18px;
+    font-weight: 700;
+    border-radius: 43px;
+    color: white;
+    cursor: pointer;
+
+    &:hover{
+        background-color: #3c8839;
+    }
+}
